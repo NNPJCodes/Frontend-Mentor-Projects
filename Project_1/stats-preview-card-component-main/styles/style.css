@@ -1,0 +1,22 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+/* Global Color Scheme Declaration*/
+:root {
+    --stats-heading-color: hsla(0, 0%, 100%, 0.6);
+    --main-white-color: hsl(0, 0%, 100%);
+    --paragraph-white-color: hsla(0, 0%, 100%, 0.75);
+    --soft-violet-color: hsl(277, 64%, 61%);
+}
+
