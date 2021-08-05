@@ -23,6 +23,7 @@ body {
     justify-content: center;
     flex-direction: column;
     -ms-flex-direction: column;
+    padding: 3rem 1rem;
 }
 
 /* Global Color Scheme Declaration*/
@@ -106,6 +107,8 @@ body {
     height: 100%;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    /* object-fit: cover;
+    object-position: left; */
 }
 
 .image-section::before {
@@ -120,6 +123,7 @@ body {
 
 .attribution {
     color: #fff;
+    line-height: 1.5rem;
 }
 
 .attribution a {

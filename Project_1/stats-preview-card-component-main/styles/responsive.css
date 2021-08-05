@@ -17,6 +17,37 @@
     .text-content .main-headline h1 {
         font-size: 26px;
     }
+    .container {
+        flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+    }
+    .text-content, .image-section {
+        width: 100%;
+    }
+    .text-content .main-headline h1 {
+        text-align: center;
+    }
+    .text-content .description p {
+        text-align: center;
+    }
+    .text-content .stats-area .stat {
+        width: 100%;
+        display: flex;
+        display: -ms-flexbox;
+        align-items: center;
+        flex-direction: column;
+        -ms-flex-direction: column;
+        justify-content: center;
+    }
+    .image-section img {
+        height: 100%;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+    .attribution {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 650px) {
