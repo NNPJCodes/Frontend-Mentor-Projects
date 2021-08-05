@@ -41,8 +41,7 @@ body {
 }
 
 .text-content, .image-section {
-    flex: 1;
-    -ms-flex: 1;
+    width: 50%;
 }
 
 .text-content {
@@ -88,4 +87,9 @@ body {
     /* background: linear-gradient(hsla(277, 64%, 61%, 0.75), hsla(277, 64%, 61%, 0.75));
     background-position: center;
     background-size: cover; */
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
 }
