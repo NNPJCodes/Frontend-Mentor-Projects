@@ -43,20 +43,6 @@ Users should be able to:
 - HTML Tags Flow Control 
 - CSS Flexbox
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 ## Author
 
 - Website - [Njoh Noh prince Junior](https://github.com/NNPJCodes)
