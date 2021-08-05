@@ -58,7 +58,7 @@ body {
 
 .text-content .main-headline h1 {
     color: var(--main-white-color);
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .text-content .main-headline h1 span {
@@ -78,6 +78,14 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.text-content .stats-area .stat:not(:last-of-type) {
+    margin-right: 0.6rem;
+}
+
+.text-content .stats-area .stat {
+    margin-bottom: 1.5rem;
 }
 
 .text-content .stats-area .stat .stat-head h2 {

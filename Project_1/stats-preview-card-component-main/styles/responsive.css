@@ -8,24 +8,37 @@
     .text-content {
         padding: 2rem 2.5rem;
     }
+    .text-content .main-headline h1 {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 750px) {
-    
+    .text-content .main-headline h1 {
+        font-size: 26px;
+    }
 }
 
 @media screen and (max-width: 650px) {
-
+    .text-content .main-headline h1 {
+        font-size: 24px;
+    }
+    .text-content .stats-area .stat .stat-head h2 {
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 550px) {
-    
+    .text-content .main-headline h1 {
+        font-size: 22px;
+    }
+    .text-content .stats-area .stat .stat-head h2 {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 450px) {
-    
-}
-
-@media screen and (max-width: 350px) {
-    
+    .text-content .main-headline h1 {
+        font-size: 20px;
+    }
 }
