@@ -93,9 +93,10 @@ body {
     color: var(--stats-heading-color);
 }
 
-.text-content .stats-area .stat .stat-word h4 {
+.text-content .stats-area .stat .stat-word h5 {
     color: var(--paragraph-white-color);
     font-weight: normal;
+    text-transform: uppercase;
 }
 
 .image-section {
