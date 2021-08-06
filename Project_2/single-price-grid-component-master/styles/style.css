@@ -23,12 +23,55 @@ body {
 
 .flex {
     display: flex;
+    display: -ms-flexbox;
 }
 
 .container {
-
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
+    flex-direction: column;
+    -ms-flex-direction: column;
+    width: 1000px;
+    min-height: 80vh;
+    background: #fff;
+    box-shadow: 0 0 10px 1px #ccc;
+    -webkit-box-shadow: 0 0 10px 1px #ccc;
+    border-radius: 10px;
+    padding: 3rem;
+}
 
+.invite, .details {
+    flex: 1;
+    -ms-flex: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.invite .head {
+    margin-bottom: 2rem;
+}
+
+.invite .head h1 {
+    color: var(--cyan-color);
+}
+
+.details {
+
+}
+
+.details .content {
+
+}
+
+.details .reason {
+    
+}
+
+.details .content, .details .reason {
+    width: 50%;
 }
