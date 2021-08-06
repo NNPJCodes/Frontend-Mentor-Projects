@@ -36,18 +36,20 @@ body {
 .card {
     flex-direction: column;
     -ms-flex-direction: column;
-    width: 1000px;
-    min-height: 80vh;
+    width: 700px;
     background: #fff;
-    box-shadow: 0 0 10px 1px #ccc;
-    -webkit-box-shadow: 0 0 10px 1px #ccc;
+    box-shadow: 0 0 10px 1px #f2f2f2;
+    -webkit-box-shadow: 0 0 10px 1px #f2f2f2;
     border-radius: 10px;
-    padding: 3rem;
+}
+
+.invite {
+    padding: 3rem 2.5rem;
+    flex: 1;
+    -ms-flex: 1;
 }
 
 .invite, .details {
-    flex: 1;
-    -ms-flex: 1;
     height: 100%;
     width: 100%;
 }
@@ -58,20 +60,55 @@ body {
 
 .invite .head h1 {
     color: var(--cyan-color);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.invite .yellow {
+    margin-bottom: 1rem;
+    color: var(--bright-yellow-color);
+    font-size: 20px;
+}
+
+.invite .gray {
+    color: var(--grayish-blue-color);
 }
 
 .details {
-
+    flex: 1;
+    -ms-flex: 1;
+    color: #ffffff;
 }
 
-.details .content {
-
+.details .pricing {
+    background: var(--cyan-color);
+    padding: 3rem 2.5rem;
 }
 
 .details .reason {
-    
+    padding: 3rem 2.5rem;
+    background: #4ABEBD;
 }
 
-.details .content, .details .reason {
+.details .head {
+    margin-bottom: 1.5rem;
+}
+
+.details .pricing .head h1,
+.details .reason .head h1 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.details .pricing, .details .reason {
     width: 50%;
+}
+
+.details .content h4 {
+    color: var(--light-gray-color);
 }
