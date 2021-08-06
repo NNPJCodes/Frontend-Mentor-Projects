@@ -18,7 +18,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ### Links
 
 - Solution URL: [solution URL](https://github.com/NNPJCodes/Frontend-Mentor-Projects)
-- Live Site URL: [Live site URL](https://single-price-card-nnpj.netlify.app/)
+- Live Site URL: [Live site URL](https://single-card-design.netlify.app/)
 
 ## My process
 
