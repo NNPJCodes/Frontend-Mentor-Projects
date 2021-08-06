@@ -15,6 +15,7 @@
     --bright-yellow-color: hsl(71, 73%, 54%);
     --light-gray-color: hsl(204, 43%, 93%);
     --grayish-blue-color: hsl(218, 22%, 67%);
+    --bg-color: #E6EFF6;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    background: var(--bg-color);
 }
 
 .card {
@@ -45,7 +47,7 @@ body {
 }
 
 .invite {
-    padding: 3rem 2.5rem;
+    padding: 2.5rem;
     flex: 1;
     -ms-flex: 1;
 }
@@ -56,7 +58,7 @@ body {
 }
 
 .invite .head {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .invite .head h1 {
@@ -88,12 +90,12 @@ h4 {
 
 .details .pricing {
     background: var(--cyan-color);
-    padding: 3rem 2.5rem;
+    padding: 2.5rem;
     border-bottom-left-radius: 10px;
 }
 
 .details .reason {
-    padding: 3rem 2.5rem;
+    padding: 2.5rem;
     background: #4ABEBD;
     border-bottom-right-radius: 10px;
 }
