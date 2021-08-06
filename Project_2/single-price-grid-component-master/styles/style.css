@@ -65,7 +65,7 @@ body {
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
 }
 
@@ -88,11 +88,13 @@ h4 {
 .details .pricing {
     background: var(--cyan-color);
     padding: 3rem 2.5rem;
+    border-bottom-left-radius: 10px;
 }
 
 .details .reason {
     padding: 3rem 2.5rem;
     background: #4ABEBD;
+    border-bottom-right-radius: 10px;
 }
 
 .details .head {
@@ -109,6 +111,34 @@ h4 {
     width: 50%;
 }
 
+.details .pricing .content .price h4 {
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+
+.details .pricing .content .price h4 span {
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
 .details .content h4 {
     color: var(--light-gray-color);
+}
+
+.btn {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.btn button {
+    width: 100%;
+    padding: 0.8rem 0;
+    border-radius: 10px;
+    background: var(--bright-yellow-color);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
 }
