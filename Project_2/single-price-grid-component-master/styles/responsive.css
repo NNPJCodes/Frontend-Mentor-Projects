@@ -1,0 +1,23 @@
+@media screen and (max-width: 750px) { 
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .details {
+        flex-direction: column;
+        -ms-flex-direction: column;
+    }
+    .details .pricing, .details .reason {
+        width: 100%;
+    }
+    .details .pricing {
+        border-bottom-left-radius: 0px;
+    }
+    
+    .details .reason {
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+}
